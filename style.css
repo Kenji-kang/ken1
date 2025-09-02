@@ -296,6 +296,78 @@ a {
   font-size: 0.9rem;
 }
  
+.contact {
+  text-align: center;
+  padding: 30px;
+  background: #ffffff;
+}
+
+.contact h2 {
+  margin-bottom: 15px;
+}
+
+.contact p {
+  margin: 8px 0;
+}
+
+.contact a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+ 
+.projects {
+  margin: 50px auto;
+  text-align: center;
+  max-width: 1000px;
+}
+
+.projects h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #1a1b1b;
+}
+
+.projects-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-box {
+  background: #ffffff;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 25px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 2px 4px 6px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.project-box:hover {
+  background: #e6f7ff;
+  border-color: #808080;
+  transform: scale(1.05);
+  box-shadow: 4px 6px 12px rgba(0,0,0,0.2);
+}
+
+.project-box h2 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.project-box p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+
 @media (max-width: 768px) {
   .about {
     grid-template-columns: 1fr; 
